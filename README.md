@@ -1,2 +1,3 @@
 # Bachelor Thesis -- The Macroeconomic Consequences of the 47th US President's Trade Policy on the EU Member States
-All Stata .do files used in my Master’s thesis
+
+The software STATA was employed to conduct the analyses. All the regressions are carried out using the command XTREG to implement within transformation efficiently within the panel data and 672 observations. Furthermore, fixed-effects (FE) are adopted, thus ensuring controls for every time-invariant country characteristic, such as the size or institutions, that can display correlation with both export and import intensity and economic growth. It also serves the function of removing the omitted-variable bias that a “traditional” OLS regression would suffer from. Lastly, the regressions also include cluster-robust standard errors (vce), which permit heteroskedasticity and provide correct inference even if variances differ across countries. 
